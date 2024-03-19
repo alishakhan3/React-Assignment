@@ -1,0 +1,124 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title{
+    padding-top: 60px;
+    color: rgb(133, 52, 32);
+}
+
+.movies{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.movie{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: black;
+}
+
+.delete{
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1.5px solid rgb(226, 36, 36);
+    border-radius: 50px;
+    color: rgb(226, 36, 36);
+    padding: 5px 10px;
+}
+
+
+.update{
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1.5px solid rgb(5, 102, 158);
+    color: rgb(5, 102, 158);
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.delete:hover{
+    background-color: rgb(226, 36, 36);
+    color: white;
+}
+
+.update:hover{
+    background-color: rgb(5, 102, 158);
+    color: white;
+}
+
+.updateLink:visited:hover{
+    color:white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid rgb(78, 78, 78);
+}
+
+input::placeholder {
+    opacity: 1;
+    color: grey;
+    font-size: medium;
+  }
+
+.updateButton{
+    border: none;
+    padding: 10px;
+    background-color: rgb(5, 102, 158);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.addButton{
+    border: none;
+    padding: 10px;
+    background-color: rgb(156, 52, 4);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mainaddButton{
+    border: none;
+    padding: 3px 6px;
+    background-color: rgb(156, 52, 4);
+    cursor: pointer;
+    border: 1.5px solid rgb(156, 52, 4);
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: larger;
+}
+
+.addLink:visited{
+    color: white;
+}
+
