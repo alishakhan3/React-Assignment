@@ -32,7 +32,7 @@ const Update =() => {
     console.log(movie)
     return (
         <div className='form'>
-            <h1>Update new movie</h1>
+            <h1 className='title2'>Update the movie</h1>
             <input type="text" placeholder='title' onChange={handleChange} name="title"/>
             <input type="text" placeholder='desc' onChange={handleChange} name="desc"/>
             <input type="text" placeholder='cover' onChange={handleChange} name="cover"/>
